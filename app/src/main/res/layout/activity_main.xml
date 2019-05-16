@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="55dp"
+        android:outlineAmbientShadowColor="@color/White"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:hint="Login"
+            android:id="@+id/idlogin"
+            android:background="@drawable/fundo"
+            />
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:hint="Password"
+            android:password="false"
+            android:id="@+id/idpass"
+            android:background="@drawable/fundo"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="logar"
+            android:shadowColor="@color/Shadow"
+            android:textColor="@color/White"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:text="Esqueci a senha"
+        android:clickable="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="460dp"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="460dp"
+        android:clickable="true"
+        android:text="Cadastrar-se"
+        android:textColor="@color/White"
+        android:textSize="17dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:text="Desenvolvido por @Malkado"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        />
+
+
+</RelativeLayout>
